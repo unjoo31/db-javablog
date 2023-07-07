@@ -18,13 +18,11 @@ create table board_tb(
     u_id int
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-insert into user_tb(u_username, u_password, u_email) 
-values('ssar', '1234', 'ssar@nate.com');
+insert into user_tb(u_username, u_password, u_email)  values('ssar', '1234', 'ssar@nate.com');
 insert into user_tb(u_username, u_password, u_email) 
 values('cos', '1234', 'cos@nate.com');
 
-insert into board_tb(b_title, b_content, u_id) 
-values('제목1', '내용1', 1);
+insert into board_tb(b_title, b_content, u_id) values('제목1', '내용1', 1);
 insert into board_tb(b_title, b_content, u_id) 
 values('제목2', '내용2', 1);
 insert into board_tb(b_title, b_content, u_id) 
